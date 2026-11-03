@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Ultra-Low Latency Conversational Voice AI Pipeline with WebRTC and Barge-in Support"
 readme = "README.md"
 authors = [
-  { name = "smay", email = "cricketworldsamay@gmail.com" }
+  { name = "Samay Sawal", email = "cricketworldsamay@gmail.com" }
 ]
 license = { text = "MIT" }
 classifiers = [
@@ -31,3 +31,4 @@ dev = [
     "pytest>=8.0.0",
     "pytest-asyncio>=0.23.0"
 ]
+

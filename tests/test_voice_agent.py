@@ -1,6 +1,6 @@
 """
 Unit tests for Realtime Voice AI Agent
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import struct
@@ -44,3 +44,4 @@ async def test_session_state_transition_and_interruption():
     session.state = AgentState.SPEAKING
     await session.interrupt()
     assert session.state == AgentState.INTERRUPTED
+

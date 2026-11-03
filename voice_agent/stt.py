@@ -1,6 +1,6 @@
 """
 Speech-to-Text (STT) Streaming Adapter
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 from typing import List, Optional
@@ -45,3 +45,4 @@ class SpeechToTextProvider:
 
     def clear(self):
         self.audio_buffer.clear()
+

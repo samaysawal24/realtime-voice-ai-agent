@@ -1,6 +1,6 @@
 """
 Data models and state definitions for Realtime Voice AI Agent
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 from enum import Enum
@@ -57,3 +57,4 @@ class SessionEvent(BaseModel):
     event_type: str  # "transcript", "audio_chunk", "agent_state", "barge_in", "error"
     payload: Dict[str, Any]
     timestamp: datetime = Field(default_factory=datetime.utcnow)
+

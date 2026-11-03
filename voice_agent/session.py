@@ -1,6 +1,6 @@
 """
 Voice Agent Session Coordinator with Barge-in Interruption
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import asyncio
@@ -125,3 +125,4 @@ class VoiceSession:
                 )
             )
         self.vad.reset()
+

@@ -4,7 +4,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.11%2B-brightgreen.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
 [![WebSockets](https://img.shields.io/badge/WebSockets-Realtime-4F46E5.svg)](https://websockets.readthedocs.io)
-[![Author](https://img.shields.io/badge/Author-smay-orange.svg)](https://github.com/samaysawal24)
+[![Author](https://img.shields.io/badge/Author-Samay_Sawal-orange.svg)](https://github.com/samaysawal24)
 
 An ultra-low latency, bidirectional conversational voice agent built with WebSockets/WebRTC streaming, sub-frame Voice Activity Detection (VAD), streaming Speech-to-Text (STT), low-latency LLM generation, and immediate user interruption (barge-in) support.
 
@@ -125,3 +125,4 @@ pytest tests/ -v
 - **Author:** smay ([@samaysawal24](https://github.com/samaysawal24))
 - **Email:** cricketworldsamay@gmail.com
 - **License:** Released under the [MIT License](LICENSE).
+

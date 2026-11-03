@@ -1,6 +1,6 @@
 """
 Text-to-Speech (TTS) Streaming Audio Synthesizer
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import math
@@ -53,3 +53,4 @@ class TextToSpeechProvider:
                 sample_rate=self.sample_rate,
                 channels=1
             )
+

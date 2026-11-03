@@ -1,6 +1,6 @@
 """
 Streaming LLM Orchestrator
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import asyncio
@@ -42,3 +42,4 @@ class LLMStreamingEngine:
             accumulated.append(token)
 
         self.append_message("assistant", " ".join(accumulated))
+

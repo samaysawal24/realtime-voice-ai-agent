@@ -1,6 +1,6 @@
 """
 FastAPI WebSocket Voice Streaming Server
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import json
@@ -12,7 +12,7 @@ from voice_agent import VoiceSession, VoiceSessionConfig, AudioFrame, SessionEve
 app = FastAPI(
     title="Realtime Voice AI Agent API",
     version="1.0.0",
-    description="Ultra-Low Latency Conversational Voice WebSocket Server authored by smay"
+    description="Ultra-Low Latency Conversational Voice WebSocket Server authored by Samay Sawal"
 )
 
 app.add_middleware(
@@ -29,7 +29,7 @@ async def health():
     return {
         "status": "healthy",
         "service": "realtime-voice-ai-agent",
-        "author": "smay",
+        "author": "Samay Sawal",
         "engine": "WebRTC-WebSocket-VoiceLoop"
     }
 
@@ -73,3 +73,4 @@ async def websocket_voice_endpoint(websocket: WebSocket, session_id: str):
                     await session.interrupt()
     except WebSocketDisconnect:
         pass
+

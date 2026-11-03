@@ -1,6 +1,6 @@
 """
 Realtime Voice AI Agent Package
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 from .session import VoiceSession
@@ -30,3 +30,4 @@ __all__ = [
     "TextToSpeechProvider",
     "LLMStreamingEngine"
 ]
+

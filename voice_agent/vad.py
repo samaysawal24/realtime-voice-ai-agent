@@ -1,6 +1,6 @@
 """
 Voice Activity Detection (VAD) Engine
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import math
@@ -60,3 +60,4 @@ class VoiceActivityDetector:
     def reset(self):
         self.is_speaking = False
         self.silence_accumulated_ms = 0.0
+
